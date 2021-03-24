@@ -1,0 +1,21 @@
+Jupyter Lab installation Notes
+
+Need both Python and Visual C studio (C++ Build Tools) before installing.  
+The installation process is done in the command prompt. 
+Quick note: cd - change directory, is how you navigate between directories (ie. folders as seen in File Explorer)  
+
+Once Python is downloaded and installed, there will be a folder with all of the python related code somewhere on your computer. 
+For me, it's location is C:\Users\elima\AppData\Local\Programs\Python
+
+To install JupyterLab, you need for the command prompt to be in the scripts directory.
+For me:
+cd C:\Users\elima\AppData\Local\Programs\Python\Python39\Scripts
+
+Then, I could follow the installation guide for pip
+https://jupyter.org/install  
+
+pip install jupyterlab 
+
+also
+
+pip install ipywidgets
